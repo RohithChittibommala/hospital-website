@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hospital Website</title>
 </head>
 
@@ -15,9 +16,78 @@
             <span class="logo">
                 <span class="inner-logo"></span>
             </span>
-            <h2>Hospital</h2>
+            <h2>E-Hospital</h2>
         </div>
     </nav>
+
+    <header>
+        <div class="content">
+            <h1>We take care of your health</h1>
+            <div class="description">
+                <p>
+                    This <span>E-Hospital</span> project is done as part of our course <span>
+                        CS262 DATA BASE MANAGEMENT SYSTEM
+                    </span>
+                    course , In this project we are developing an app , where we are trying to develop the following
+                    features like login , saparete views for doctor,patient,admin....
+                </p>
+            </div>
+            <div class="button">
+                <a href="#">Download <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="img-div">
+            <img src="./assets/undraw_medicine_b1ol.svg" alt="">
+        </div>
+    </header>
+
+    <div class="project">
+        <div class="title-container">
+            <h1>Our Project</h1>
+        </div>
+        <div class="project-container">
+            <div class="entity-container">
+                <h2>Entities in our project</h2>
+                <ol>
+                    <li>Doctor </li>
+                    <li>HR</li>
+                    <li>Junior doctor</li>
+                    <li>Lab Technician </li>
+                    <li>Maintenace</li>
+                    <li>Test Report</li>
+                    <li>Patient</li>
+                    <li>Department</li>
+                    <li>Lab</li>
+                    <li>...some more</li>
+                </ol>
+            </div>
+            <div class="attribute-container">
+                <h2>Features of our project</h2>
+                <ol>
+                    <li>Authorizations
+                        <ol>
+                            <li>Admin</li>
+                            <li>Doctor</li>
+                            <li>HR</li>
+                            <li>Lab technician</li>
+                        </ol>
+                    </li>
+
+                    <li>Employee Categorization</li>
+                    <li>Patient Details</li>
+                    <li>Department Specification </li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const downloadBtn = document.querySelector(".button a")
+        downloadBtn.onclick = (e) => {
+            e.preventDefault();
+            alert("our app is in progress")
+        }
+    </script>
 </body>
 
 </html>
