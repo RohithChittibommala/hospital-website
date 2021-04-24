@@ -338,7 +338,7 @@ button i {
   position: absolute;
   background: #fff;
   left: -30px;
-  top: 0px;
+  top: 3px;
   z-index: 5;
 }
 
