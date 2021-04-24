@@ -348,6 +348,16 @@ button i {
   border-bottom: 1px dashed hsl(0, 4%, 84%);
 }
 
+.download-report {
+  background: rgb(52, 144, 206);
+  color: #fff;
+  display: block;
+  width: 170px;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-top: 25px;
+}
+
 /* media queries for mobile view */
 
 @media only screen and (max-width: 768px) {
